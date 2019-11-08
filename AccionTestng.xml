@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="acciontestsuite">
+    <test name="accion">
+        <classes>
+            <class name="AccionTests.Util" />
+            <!--<class name="AccionTests.UnlinkDeviceTest" />-->
+                <!--<methods>-->
+                    <!--&lt;!&ndash;<include name=".*enabledTestMethod.*" />&ndash;&gt;-->
+                    <!--<exclude name=".*UnlinkAcctASuccessfully_LoginWithAcctB_ValidOTP*" />-->
+                    <!--<exclude name=".*UnlinkAcctA*" />-->
+                    <!--<exclude name=".*ForgotPwdAfterUnlinkingDevice*" />-->
+                <!--</methods>-->
+            <class name="AccionTests.LoginTest" />
+            <!--<class name="AccionTests.DashboardTest" />-->
+            <!--<class name="AccionTests.TransferTest" />-->
+           <!-- <class name="AccionTests.PaymentTest" /> -->
+            <!--<class name="AccionTests.ProfileTest" />-->
+            <!--<class name="AccionTests.MorePageTest" />-->
+            <!--<class name="AccionTests.LogoutTest" />-->
+
+
+
+        </classes>
+    </test>
+</suite>
